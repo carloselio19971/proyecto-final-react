@@ -1,0 +1,46 @@
+.contenedor-header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+    line-height: 1;
+}
+.item-2{
+    border-right: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contenedor-side-header{
+    background-color: #173083;
+}
+
+.contenedor-side-header{
+    display: grid;
+    grid-template-columns: 4fr 3fr 3fr 4fr;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contenedor-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+
+    .item-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .item-1, .item-4{
+        display: none;
+    }
+
+}
+
+.bannerbembos{
+    background-color: #173083;
+}
