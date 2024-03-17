@@ -1,6 +1,6 @@
 import './Header.css'
-import { InfoAtencion } from './InfoAtencion'
-import { SiteHeader } from './SiteHeader'
+import { InfoAtencion } from './InforAtencionHeader/InfoAtencion'
+import { SiteHeader } from './SiteHeader/SiteHeader'
 export const Header = () => {
   return (
     <>
