@@ -1,0 +1,51 @@
+.contenedor-global-menu-navegacion{
+    background-color: white;
+}
+
+.contenedor-menu-navegacion{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+.menu{
+
+
+}
+.contenedor-botones{
+  
+    
+}
+
+.contenedor-botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pide-en-tiendas{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbb905;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    width: 320px;
+    color:#173083;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.pide-en-tiendas span{
+    font-weight: bold;
+    color:#e10b19;
+}
+
+.icono-tiendas img {
+    height: 50px;
+    filter: invert(18%) sepia(78%) saturate(2410%) hue-rotate(218deg) brightness(72%) contrast(95%);
+    padding-right: 20px;
+}
