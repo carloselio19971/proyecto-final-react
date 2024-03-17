@@ -6,6 +6,7 @@
 .img-bembos{
     width:150px;
     margin-top: 20px;
+    background-size: cover; 
 
 }
 .contenedor-grid-side-header{
